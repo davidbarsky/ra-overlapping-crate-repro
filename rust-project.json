@@ -1,0 +1,26 @@
+{
+    "sysroot": "/Users/dbarsky/.rustup/toolchains/stable-aarch64-apple-darwin",
+    "crates": [
+        {
+            "display_name": "service-bin",
+            "root_module": "main.rs",
+            "edition": "2021",
+            "deps": [
+                {
+                    "crate": 1,
+                    "name": "components"
+                }
+            ],
+            "is_workspace_member": true
+        },
+        {
+            "display_name": "components",
+            "root_module": "components/first-file.rs",
+            "edition": "2021",
+            "deps": [
+                
+            ],
+            "is_workspace_member": true
+        }
+    ]
+}
